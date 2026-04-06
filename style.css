@@ -35,6 +35,7 @@ font-family: "Courier New", monospace;
 @media screen and (max-width: 400px){
 #home{
 height: 100vh;
+background-position: left;
 }
 #home .topnav .navarea{
 width: 100%;
@@ -44,7 +45,8 @@ padding: 20px 5%;
 }
 #home .topnav .navarea .hyperlinks a{
 font-size: 2vh;
-margin-right: 5%;
+margin-right: 6%;
+  font-weight: 700;
 }
 }
 
@@ -233,6 +235,6 @@ footer .copyrights{
 width: 100%;
 }
 footer .copyrights .content p{
-font-size: 2vh;
+font-size: 1.75vh;
 }
 }
