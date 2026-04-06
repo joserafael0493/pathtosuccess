@@ -131,15 +131,16 @@ width: 100%;
 padding: 5% 5%;
 }
 .container-1 #blog .content h1{
-font-size: 4vh;
-line-height: 45px;
+font-size: 3.5vh;
+line-height: 40px;
+  font-weight: 800;
 }
 .container-1 #blog .content h2{
 font-size: 20px;
 line-height: 30px;
 }
 .container-1 #blog .content p{
-font-size: 2.25vh;
+font-size: 2vh;
 line-height: 29px;
 }
 .container-1 #blog .content br{
@@ -204,7 +205,7 @@ height: 130px;
 font-size: 2.5vh;
 }
 .container-2 #about .content p{
-font-size: 2.25vh;
+font-size: 2vh;
 line-height: 29px;
 }
 }
