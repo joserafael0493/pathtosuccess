@@ -1,0 +1,238 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#home{
+height: 100vh;
+background-image: linear-gradient(rgba(4, 9, 15, 0.5), rgba(4, 9, 15, 0.75)), url(background1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+#home .topnav{
+background-color: #ffffff;
+}
+#home .topnav .navarea{
+width: 70%;
+margin: 0px auto;
+}
+#home .topnav .navarea .hyperlinks{
+padding: 20px 5%;
+}
+#home .topnav .navarea .hyperlinks a{
+text-decoration: none;
+margin-right: 4.5%;
+font-weight: 600;
+font-family: "Courier New", monospace;
+}
+
+
+/* responsive view for mobile phone */
+@media screen and (max-width: 400px){
+#home{
+height: 100vh;
+}
+#home .topnav .navarea{
+width: 100%;
+}
+#home .topnav .navarea .hyperlinks{
+padding: 20px 5%;
+}
+#home .topnav .navarea .hyperlinks a{
+font-size: 2vh;
+margin-right: 5%;
+}
+}
+
+
+
+
+#home .subject{
+width: 70%;
+margin: 0px auto;
+}
+#home .subject .content{
+padding: 10% 5%;
+color: #ffffff;
+}
+#home .subject .content h1{
+font-size: 80px;
+font-family: "Courier New", monospace;
+}
+#home .subject .content p{
+line-height: 30px;
+font-size: 18px;
+}
+
+
+/* responsive view for mobile phone */
+@media screen and (max-width: 400px){
+#home .subject{
+width: 100%;
+}
+#home .subject .content{
+padding: 25% 5%;
+}
+#home .subject .content h1{
+font-size: 2.3em;
+line-height: 50px;
+}
+#home .subject .content p{
+font-size: 2.5vh;
+}
+#home .subject .content br{
+display: none;
+}
+}
+
+
+
+
+
+
+
+.container-1 #blog{
+width: 70%;
+margin: 0px auto;
+}
+.container-1 #blog .content{
+padding: 5% 5%;
+}
+.container-1 #blog .content h1{
+font-size: 36px;
+line-height: 45px;
+font-family: "Courier New", monospace;
+}
+.container-1 #blog .content h2{
+font-size: 25px;
+font-family: "Courier New", monospace;
+}
+.container-1 #blog .content p{
+font-size: 17px;
+line-height: 30px;
+}
+.container-1 #blog .content br{
+display: none;
+}
+
+
+/* responsive view for mobile phone */
+@media screen and (max-width: 400px){
+.container-1 #blog{
+width: 100%;
+}
+.container-1 #blog .content{
+padding: 5% 5%;
+}
+.container-1 #blog .content h1{
+font-size: 4vh;
+line-height: 45px;
+}
+.container-1 #blog .content h2{
+font-size: 20px;
+line-height: 29px;
+}
+.container-1 #blog .content p{
+font-size: 2.25vh;
+line-height: 29px;
+}
+.container-1 #blog .content br{
+display: block;
+}
+}
+
+
+
+
+
+
+.container-2{
+border-top: 1px solid lightgray;
+border-bottom: 1px solid lightgray;
+}
+.container-2 #about{
+width: 70%;
+margin: 0px auto;
+
+}
+.container-2 #about .content{
+padding: 5% 5%;
+}
+.container-2 #about .content img{
+display: block;
+width: 23%;
+height: 170px;
+margin: auto;
+border-radius: 50%;
+}
+.container-2 #about .content h2{
+font-size: 30px;
+text-align: center;
+}
+.container-2 #about .content h3{
+font-size: 20px;
+font-family: "Courier New", monospace;
+}
+.container-2 #about .content p{
+font-size: 17px;
+line-height: 30px;
+}
+
+
+/* responsive view for mobile phone */
+@media screen and (max-width: 400px){
+.container-2 #about{
+width: 100%;
+}
+.container-2 #about .content{
+padding: 5% 5%;
+}
+.container-2 #about .content h2{
+font-size: 4vh;
+}
+.container-2 #about .content img{
+width: 40%;
+height: 130px;
+}
+.container-2 #about .content h3{
+font-size: 2.5vh;
+}
+.container-2 #about .content p{
+font-size: 2.25vh;
+line-height: 29px;
+}
+}
+
+
+
+
+
+
+footer{
+padding: ;
+}
+
+footer .copyrights{
+width: 70%;
+margin: 0px auto;
+}
+footer .copyrights .content{
+padding: 15px 5%;
+}
+footer .copyrights .content p{
+font-size: 13px;;
+}
+
+/* responsive view for mobile phone */
+@media screen and (max-width: 400px){
+footer .copyrights{
+width: 100%;
+}
+footer .copyrights .content p{
+font-size: 2vh;
+}
+}
