@@ -31,24 +31,8 @@ font-family: "Courier New", monospace;
 }
 
 
-/* responsive view for mobile phone */
-@media screen and (max-width: 400px){
-#home{
-height: 100vh;
-background-position: left;
-}
-#home .topnav .navarea{
-width: 100%;
-}
-#home .topnav .navarea .hyperlinks{
-padding: 20px 5%;
-}
-#home .topnav .navarea .hyperlinks a{
-font-size: 2vh;
-margin-right: 6%;
-  font-weight: 700;
-}
-}
+
+
 
 
 
@@ -71,25 +55,7 @@ font-size: 18px;
 }
 
 
-/* responsive view for mobile phone */
-@media screen and (max-width: 400px){
-#home .subject{
-width: 100%;
-}
-#home .subject .content{
-padding: 35% 5%;
-}
-#home .subject .content h1{
-font-size: 2em;
-line-height: 50px;
-}
-#home .subject .content p{
-font-size: 2.25vh;
-}
-#home .subject .content br{
-display: none;
-}
-}
+
 
 
 
@@ -122,31 +88,7 @@ display: none;
 }
 
 
-/* responsive view for mobile phone */
-@media screen and (max-width: 400px){
-.container-1 #blog{
-width: 100%;
-}
-.container-1 #blog .content{
-padding: 5% 5%;
-}
-.container-1 #blog .content h1{
-font-size: 3.5vh;
-line-height: 40px;
-  font-weight: 800;
-}
-.container-1 #blog .content h2{
-font-size: 20px;
-line-height: 30px;
-}
-.container-1 #blog .content p{
-font-size: 2vh;
-line-height: 29px;
-}
-.container-1 #blog .content br{
-display: block;
-}
-}
+
 
 
 
@@ -186,29 +128,7 @@ line-height: 30px;
 }
 
 
-/* responsive view for mobile phone */
-@media screen and (max-width: 400px){
-.container-2 #about{
-width: 100%;
-}
-.container-2 #about .content{
-padding: 5% 5%;
-}
-.container-2 #about .content h2{
-font-size: 4vh;
-}
-.container-2 #about .content img{
-width: 40%;
-height: 130px;
-}
-.container-2 #about .content h3{
-font-size: 2.5vh;
-}
-.container-2 #about .content p{
-font-size: 2vh;
-line-height: 29px;
-}
-}
+
 
 
 
@@ -230,8 +150,105 @@ footer .copyrights .content p{
 font-size: 13px;;
 }
 
+
+
+
+
 /* responsive view for mobile phone */
 @media screen and (max-width: 400px){
+#home{
+height: 100vh;
+background-position: left;
+}
+#home .topnav .navarea{
+width: 100%;
+}
+#home .topnav .navarea .hyperlinks{
+padding: 20px 5%;
+}
+#home .topnav .navarea .hyperlinks a{
+font-size: 2vh;
+margin-right: 6%;
+  font-weight: 700;
+}
+
+
+
+
+
+#home .subject{
+width: 100%;
+}
+#home .subject .content{
+padding: 35% 5%;
+}
+#home .subject .content h1{
+font-size: 2em;
+line-height: 50px;
+}
+#home .subject .content p{
+font-size: 2.25vh;
+}
+#home .subject .content br{
+display: none;
+}
+
+
+
+
+
+.container-1 #blog{
+width: 100%;
+}
+.container-1 #blog .content{
+padding: 5% 5%;
+}
+.container-1 #blog .content h1{
+font-size: 3.5vh;
+line-height: 40px;
+  font-weight: 800;
+}
+.container-1 #blog .content h2{
+font-size: 20px;
+line-height: 30px;
+}
+.container-1 #blog .content p{
+font-size: 2vh;
+line-height: 29px;
+}
+.container-1 #blog .content br{
+display: block;
+}
+
+
+
+
+
+.container-2 #about{
+width: 100%;
+}
+.container-2 #about .content{
+padding: 5% 5%;
+}
+.container-2 #about .content h2{
+font-size: 4vh;
+}
+.container-2 #about .content img{
+width: 40%;
+height: 130px;
+}
+.container-2 #about .content h3{
+font-size: 2.5vh;
+}
+.container-2 #about .content p{
+font-size: 2vh;
+line-height: 29px;
+}
+
+
+
+
+
 footer .copyrights{
 width: 100%;
 }
