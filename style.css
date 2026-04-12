@@ -186,14 +186,14 @@ margin-right: 6%;
 width: 100%;
 }
 #home .subject .content{
-padding: 35% 5%;
+padding: 30% 5%;
 }
 #home .subject .content h1{
-font-size: 2.5em;
+font-size: 3.5em;
 line-height: 50px;
 }
 #home .subject .content p{
-font-size: 2.25vh;
+font-size: 2.5vh;
 }
 #home .subject .content br{
 display: none;
